@@ -1,0 +1,168 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BERSHKA</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background-image:url("img/fondo.jpeg.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    color:white;
+    text-align:center;
+}
+
+.navbar{
+    background:#222;
+}
+
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    font-size:28px;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight:bold;
+    font-size:18px;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#FFD700 !important;
+}
+
+.bienvenida{
+    margin:40px auto;
+    background:rgba(0,0,0,.6);
+    width:80%;
+    padding:30px;
+    border-radius:20px;
+}
+
+.bienvenida h1{
+    font-size:50px;
+}
+
+.bienvenida h2{
+    font-size:35px;
+}
+
+.bienvenida p{
+    font-size:20px;
+}
+
+img{
+    width:80%;
+    max-width:700px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,.5);
+}
+
+@media(max-width:768px){
+
+.bienvenida{
+    width:95%;
+}
+
+.bienvenida h1{
+    font-size:35px;
+}
+
+.bienvenida h2{
+    font-size:25px;
+}
+
+.bienvenida p{
+    font-size:18px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg">
+
+<div class="container">
+
+<a class="navbar-brand" href="#">BERSHKA</a>
+
+<button class="navbar-toggler bg-light" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse justify-content-center" id="menu">
+
+<ul class="navbar-nav">
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">Inicio</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="Historia.html">Historia</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="recomendaciones.html">Recomendaciones</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="contactos.html">Contacto</a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<!-- Contenido principal -->
+<section class="bienvenida">
+
+<h1>BERSHKA</h1>
+
+<h2>¡Bienvenidos!</h2>
+
+<p>
+Te damos la bienvenida a nuestra página de Bershka.
+Aquí encontrarás moda moderna, las últimas tendencias,
+ropa y accesorios para todos los estilos.
+</p>
+
+<br>
+
+<img src="img/fotito.jpeg">
+
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+```
